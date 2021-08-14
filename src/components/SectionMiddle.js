@@ -10,14 +10,14 @@ import {
   StyledDiv6,
   StyledDiv7,
   StyledImg,
-  // StyledImg100pre,
+  StyledImg100pre,
   StyledAlbum,
 } from "../Styles/styledSectionMiddle";
 
 import conejo from "../images/icons/icons_svg/bad bunny logo.svg";
 import oasis from "../images/oasis.jpg";
 import x100pretext from "../images/icons/icons_svg/x100prelogo.svg";
-import tenis from "../images/tenis-x9000l1.jpg";
+import tenis from "../images/icons/icons_svg/x100prelogo.svg";
 export default function SectionMiddle() {
   return (
     <>
@@ -31,7 +31,7 @@ export default function SectionMiddle() {
           </StyledDiv2>
           <StyledDiv3>❤</StyledDiv3>
           <StyledDiv4>
-            {/* <StyledImg100pre src={x100pretext} alt="x100pretext" /> */}
+            <StyledImg100pre src={x100pretext} alt="x100pretext" />
           </StyledDiv4>
           <StyledDiv5>
             <StyledImg src={tenis} alt="tenis" />

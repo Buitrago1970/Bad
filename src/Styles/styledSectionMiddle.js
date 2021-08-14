@@ -41,10 +41,13 @@ export const StyledDiv6 = styled.div`
 export const StyledDiv7 = styled.div`
   grid-area: 3 / 1 / 5 / 3;
 `;
-// export const StyledImg100pre = styled.img`
-//   width: 100px;
-// `;
+export const StyledImg100pre = styled.img`
+  width: 100px;
+`;
 export const StyledAlbum = styled.img`
   width: 90%;
   border-radius: 7px;
+`;
+export const StyledImg = styled.img`
+  width: 100px;
 `;

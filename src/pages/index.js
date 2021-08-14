@@ -9,7 +9,6 @@ import "../Styles/global.css";
 
 const IndexPage = () => {
   // var bar = document.getElementById("progressBar");
-  // debugger;
 
   // var totalHeight = window.scrollHeight - window.innerHeight;
 
@@ -27,8 +26,8 @@ const IndexPage = () => {
 
   return (
     <>
-      {/* <div id="progressBar"></div>
-      <div id="progressBarContainer"></div> */}
+      <div id="progressBar"></div>
+      <div id="progressBarContainer"></div>
       <GlobalStyled />
       <Home />
       <SectionMiddle />

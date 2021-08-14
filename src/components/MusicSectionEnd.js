@@ -17,7 +17,7 @@ import {
   Img4,
   Img5,
   Gif,
-} from "../Styles/StyledMusicSectionMiddle";
+} from "../Styles/StyledMusicSectionEnd";
 import droga from "../images/maxresdefault (3).jpg";
 import drogaIcon from "../images/icons/icons_svg/songs_icons/droga.svg";
 import unaVez from "../images/maxresdefault (4).jpg";
@@ -25,6 +25,7 @@ import unaVezIcon from "../images/icons/icons_svg/songs_icons/una vez.svg";
 import HaciendoQueMeAmas from "../images/maxresdefault (6).jpg";
 import HaciendoQueMeAmasIcon from "../images/icons/icons_svg/songs_icons/Sin título-11.svg";
 import x from "../images/icons/icons_svg/Sin título-2.svg";
+
 export default function MusicSectionMiddle() {
   return (
     <>

@@ -14,31 +14,36 @@ import {
   Img4,
   Img5,
   Gif,
+  Icon,
 } from "../Styles/StyledMusic";
-
-import x from "../images/Bad Bunny discovered by Jaqui Flores on We Heart It.jpg";
+import cienMillones from "../images/maxresdefault (1).jpg";
+import cienMillonesIcon from "../images/icons/icons_svg/songs_icons/100millones.svg";
+import yonaguni from "../images/maxresdefault (2).jpg";
+import yonaguniIcon from "../images/icons/icons_svg/songs_icons/sintitulo.svg";
+import elMundoEsmio from "../images/maxresdefault (5).jpg";
+import elMundoEsmioIcon from "../images/icons/icons_svg/songs_icons/Sin título-11.svg";
 export default function MusicSectiontop() {
   return (
     <>
       <StyledContainerHome>
         <Music>
           <StyledDiv1>
-            <Img1 src={x} alt="img" />
+            <Img1 src={cienMillones} alt="img" />
           </StyledDiv1>
           <StyledDiv2>
-            <Img2 src={x} alt="img" />
+            <Icon src={cienMillonesIcon} alt="100millonesicon" />
           </StyledDiv2>
           <StyledDiv3>
-            <Img3 src={x} alt="img" />
+            <Img3 src={yonaguni} alt="img" />
           </StyledDiv3>
           <StyledDiv4>
-            <Img4 src={x} alt="img" />
+            <Icon src={yonaguniIcon} alt="img" />
           </StyledDiv4>
           <StyledDiv5>
-            <Gif src={x} alt="img" />
+            <Img4 src={elMundoEsmio} alt="img" />
           </StyledDiv5>
           <StyledDiv6>
-            <Img5 src={x} alt="img" />
+            <Icon src={elMundoEsmioIcon} alt="img" />
           </StyledDiv6>
         </Music>
       </StyledContainerHome>

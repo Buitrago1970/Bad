@@ -26,10 +26,13 @@ export const StyledDiv3 = styled.div`
 `;
 export const StyledPoster = styled.img`
   width: 35%;
+  box-shadow: 0 0 0.5rem #d41111, inset 0 0 0.5rem #fff, 0 0 2rem #330f0d,
+    inset 0 0 2rem #330f0d, 0 0 4rem #330f0d, inset 0 0 4rem #330f0d;
 `;
 export const StyledImg = styled.img`
   width: 100px;
 `;
 export const StyledAlbum = styled.img`
-  width: 170%;
+  width: 150%;
+  border-radius: 7px;
 `;
