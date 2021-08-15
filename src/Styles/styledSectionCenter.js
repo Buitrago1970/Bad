@@ -33,6 +33,9 @@ export const StyledImg = styled.img`
   width: 100px;
 `;
 export const StyledAlbum = styled.img`
+  box-shadow: rgb(255 255 255) 0px -1px 4px 3px,
+    rgb(54 142 192) 0px -2px 11px 9px, rgb(20 117 168) 0px -10px 20px,
+    #62acff 0px -18px 40px 0px, -4px 3px 20px 0px rgb(148 219 250);
   width: 150%;
   border-radius: 7px;
 `;

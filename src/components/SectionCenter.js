@@ -26,6 +26,7 @@ export default function SectionCenter() {
           </StyledDiv2>
           <StyledDiv3>
             <StyledAlbum src={yhlqmdlg} alt="yhlqmdlg" />
+            🐱🐈🌈
           </StyledDiv3>
         </StyledSectionCenter>
       </StyledContainerHome>

@@ -29,9 +29,17 @@ export const StyledDiv4 = styled.div`
 export const StyledDiv5 = styled.div`
   grid-area: 2 / 5 / 3 / 6;
 `;
-export const StyledAlbum = styled.img`
+export const Img1 = styled.img`
   width: 90%;
   border-radius: 7px;
+  box-shadow: 0 0 0.5rem #fefefe, inset 0 0 0.5rem #fff, 0 0 2rem #ffffff,
+    inset 0 0 2rem #ffffff, 0 0 4rem #ffffff, inset 0 0 4rem #ffffff;
+`;
+export const Img2 = styled.img`
+  width: 90%;
+  border-radius: 7px;
+  box-shadow: 0 0 0.5rem #6c7771, inset 0 0 0.5rem #fff, 0 0 2rem #fee902,
+    inset 0 0 2rem #feea00, 0 0 4rem #ffeb00, inset 0 0 4rem #fdec00;
 `;
 export const StyledImgeye = styled.img`
   width: 67px;
@@ -45,7 +53,7 @@ export const StyledImgheart = styled.img`
 export const GlobalStyled = createGlobalStyle`
     body{
         margin: 0;
-        background: #125;
+        background: #001;
         color: #fff;
     }
 `;

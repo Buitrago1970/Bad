@@ -41,7 +41,7 @@ export default function MusicSectionMiddle() {
           <StyledDiv3>
             <Icon src={veteIcon} alt="img" />
           </StyledDiv3>
-          <StyledDiv4>{"sub b0"}</StyledDiv4>
+          <StyledDiv4>{"La Droga"}</StyledDiv4>
           <StyledDiv5>
             <Icon src={museoIcon} alt="img" />
           </StyledDiv5>

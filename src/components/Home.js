@@ -6,7 +6,8 @@ import {
   StyledDiv3,
   StyledDiv4,
   StyledDiv5,
-  StyledAlbum,
+  Img1,
+  Img2,
   StyledContainerHome,
   StyledImghands,
   StyledImgheart,
@@ -25,7 +26,7 @@ export default function Home() {
       <StyledContainerHome>
         <StyledHome>
           <StyledDiv1>
-            <StyledAlbum src={x100pre} alt="x100pre" />
+            <Img1 src={x100pre} alt="x100pre" />
           </StyledDiv1>
           <StyledDiv2>
             <StyledImgeye src={ojo} alt="eye" />
@@ -37,7 +38,7 @@ export default function Home() {
             <StyledImghands src={manos} alt="eye" />
           </StyledDiv4>
           <StyledDiv5>
-            <StyledAlbum src={LQNIAS} alt="x100pre" />
+            <Img2 src={LQNIAS} alt="x100pre" />
           </StyledDiv5>
         </StyledHome>
       </StyledContainerHome>

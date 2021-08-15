@@ -13,40 +13,37 @@ export const Music = styled.div`
 `;
 
 export const StyledDiv1 = styled.div`
-  grid-area: 1 / 1 / 2 / 2;
+  grid-area: 1 / 4 / 2 / 5;
 `;
 export const StyledDiv2 = styled.div`
-  grid-area: 1 / 2 / 2 / 3;
+  grid-area: 2 / 4 / 3 / 5;
 `;
 export const StyledDiv3 = styled.div`
   grid-area: 1 / 1 / 4 / 3;
 `;
 export const StyledDiv4 = styled.div`
-  grid-area: 1 / 4 / 2 / 5;
+  grid-area: 2 / 5 / 3 / 6;
+  display: flex;
+  justify-content: flex-end;
 `;
 export const StyledDiv5 = styled.div`
   grid-area: 1 / 4 / 3 / 5;
 `;
 export const StyledDiv6 = styled.div`
-  grid-area: 1 / 5 / 3 / 6;
+  grid-area: 3 / 4 / 4 / 5;
 `;
 export const StyledDiv7 = styled.div`
-  grid-area: 2 / 5 / 4 / 6;
-`;
-export const Img1 = styled.img`
-  width: 100%;
-  border-radius: 7px;
+  grid-area: 3 / 5 / 4 / 6;
 `;
 export const Img2 = styled.img`
   width: 100%;
   box-shadow: 0 0 0.5rem #99aabb, inset 0 0 0.5rem #fff, 0 0 2rem #3969bd,
     inset 0 0 2rem #3969bd, 0 0 4rem #3969bd, inset 0 0 4rem #3969bd; ;
 `;
-export const Img3 = styled.img`
-  width: 100%;
-  border-radius: 7px;
+export const Img1 = styled.img`
+  width: 40%;
 `;
-export const Img4 = styled.img`
+export const Img3 = styled.img`
   width: 100%;
   border-radius: 7px;
 `;

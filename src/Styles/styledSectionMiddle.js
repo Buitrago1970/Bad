@@ -46,7 +46,10 @@ export const Img100pre = styled.img`
 `;
 export const StyledAlbum = styled.img`
   width: 90%;
-  border-radius: 7px;
+  border-radius: 1px;
+  box-shadow: rgb(0 9 255) 0px 0px 10px 3px, rgb(6 255 0) 0px 0px 10px 6px,
+    rgb(255 214 0) 0px 0px 10px 9px, rgb(255 106 0) 0px 0px 10px 12px,
+    rgb(255 0 0) 0px 0px 10px 15px;
 `;
 export const Img = styled.img`
   width: 100px;
