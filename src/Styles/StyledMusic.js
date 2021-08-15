@@ -37,7 +37,7 @@ export const StyledDiv6 = styled.div`
 // export const StyledDiv12 = styled.div``;
 // export const StyledDiv13 = styled.div``;
 export const Img1 = styled.img`
-  width: 130%;
+  width: 100%;
   border-radius: 7px;
   box-shadow: 0 0 0.5rem #0a0a0a, inset 0 0 0.5rem #fff, 0 0 1rem #545454,
     inset 0 0 1rem #545454, 0 0 1rem #545454, inset 2px 9px 4rem #c71c1c;

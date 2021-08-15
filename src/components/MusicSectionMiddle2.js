@@ -11,20 +11,23 @@ import {
   StyledDiv7,
   StyledDiv8,
   StyledDiv9,
+  StyledDiv10,
   Img1,
-  Icon,
+  Img2,
   Img3,
   Img4,
-  Img5,
-  Gif,
+  Icon1,
+  Icon,
 } from "../Styles/StyledMusicSectionMiddle2";
-import droga from "../images/maxresdefault (3).jpg";
-import drogaIcon from "../images/icons/icons_svg/songs_icons/droga.svg";
-import unaVez from "../images/maxresdefault (4).jpg";
-import unaVezIcon from "../images/icons/icons_svg/songs_icons/una vez.svg";
-import HaciendoQueMeAmas from "../images/maxresdefault (6).jpg";
-import HaciendoQueMeAmasIcon from "../images/icons/icons_svg/songs_icons/Sin título-11.svg";
-import x from "../images/icons/icons_svg/Sin título-2.svg";
+
+import CientoVeinte from "../images/maxresdefault (7).jpg";
+import corazon from "../images/maxresdefault (9).jpg";
+import yandel from "../images/maxresdefault (11).jpg";
+import volvi from "../images/volvi.png";
+
+import cientoVeinteIcon from "../images/icons/icons_svg/songs_icons/120icon.svg";
+import yandelIcon from "../images/icons/icons_svg/songs_icons/llorablanco.svg";
+import volviIcon from "../images/icons/icons_svg/songs_icons/volvi.svg";
 
 export default function MusicSectionMiddle() {
   return (
@@ -32,28 +35,29 @@ export default function MusicSectionMiddle() {
       <StyledContainerHome>
         <Music>
           <StyledDiv1>
-            <Icon src={drogaIcon} alt="img" />
+            <Icon1 src={cientoVeinteIcon} alt="img" />
           </StyledDiv1>
           <StyledDiv2>
-            <Img1 src={droga} alt="img" />
+            <Img1 src={CientoVeinte} alt="img" />
           </StyledDiv2>
           <StyledDiv3>
-            <Img1 src={x} />
+            <Img2 src={corazon} />
           </StyledDiv3>
-          <StyledDiv4>
-            <Img4 src={unaVezIcon} alt="img" />
-          </StyledDiv4>
+          <StyledDiv4>❤</StyledDiv4>
           <StyledDiv5>
-            <Gif src={unaVez} alt="img" />
+            <Img3 src={yandel} alt="img" />
           </StyledDiv5>
           <StyledDiv6>
-            <Img5 src={HaciendoQueMeAmasIcon} alt="img" />
+            <Icon src={yandelIcon} alt="img" />
           </StyledDiv6>
           <StyledDiv7>
-            <Gif src={HaciendoQueMeAmas} alt="img" />
+            <Icon src={volviIcon} alt="img" />
           </StyledDiv7>
-          <StyledDiv8>{"<3"}</StyledDiv8>
-          <StyledDiv9>{"<3"}</StyledDiv9>
+          <StyledDiv8>
+            <Img4 src={volvi} alt="img" />
+          </StyledDiv8>
+          <StyledDiv9></StyledDiv9>
+          <StyledDiv10>{"BYE ME FUI"}</StyledDiv10>
         </Music>
       </StyledContainerHome>
     </>
