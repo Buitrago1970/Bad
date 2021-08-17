@@ -52,5 +52,5 @@ export const StyledAlbum = styled.img`
     rgb(255 0 0) 0px 0px 10px 15px;
 `;
 export const Img = styled.img`
-  width: 100px;
+  width: 180px;
 `;

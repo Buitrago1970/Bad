@@ -6,11 +6,24 @@ export const StyledContainerHome = styled.div`
 export const StyledSectionCenter = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 `;
 
+export const Div = styled.div`
+  grid-area: 4 / 3 / 5 / 5;
+  font-size: 50px;
+  color: #ffff;
+  text-shadow: 0 -1px 4px #fff, 0 -2px 10px #ff0, 0 -10px 20px #ff8000,
+    0 -18px 40px #f00;
+`;
+export const StyledDiv0 = styled.div`
+  grid-area: 4 / 4 / 5 / 5;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+`;
 export const StyledDiv1 = styled.div`
   grid-area: 1 / 1 / 2 / 3;
   display: flex;
@@ -30,12 +43,22 @@ export const StyledPoster = styled.img`
     inset 0 0 2rem #330f0d, 0 0 4rem #330f0d, inset 0 0 4rem #330f0d;
 `;
 export const StyledImg = styled.img`
-  width: 100px;
+  width: 150px;
+  border-radius: 2px;
+  box-shadow: rgb(255 255 255) 0px -1px 4px 3px,
+    rgb(251 247 228) 0px -2px 11px 9px, rgb(126 83 37) 0px -10px 20px,
+    #b9880a 0px -18px 40px 0px, -4px 3px 20px 0px rgb(218 184 101);
 `;
 export const StyledAlbum = styled.img`
   box-shadow: rgb(255 255 255) 0px -1px 4px 3px,
     rgb(54 142 192) 0px -2px 11px 9px, rgb(20 117 168) 0px -10px 20px,
     #62acff 0px -18px 40px 0px, -4px 3px 20px 0px rgb(148 219 250);
   width: 150%;
+  border-radius: 7px;
+`;
+export const StyledAlbum1 = styled.img`
+  box-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px,
+    red 0 -18px 40px, 5px 5px 12px 5px rgba(0, 0, 0, 0);
+  width: 110%;
   border-radius: 7px;
 `;

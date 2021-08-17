@@ -9,26 +9,26 @@ import { GlobalStyled } from "../Styles/styled";
 import "../Styles/global.css";
 
 const IndexPage = () => {
-  // var bar = document.getElementById("progressBar");
+  // const bar = document.getElementById("progressBar");
 
-  // var totalHeight = window.scrollHeight - window.innerHeight;
+  // const totalHeight = window.scrollHeight - window.innerHeight;
 
   // window.onscroll =
   //   ("load",
   //   function () {
-  //     var progressHeight = (window.pageYOffset / totalHeight) * 100;
+  //     const progressHeight = (window.pageYOffset / totalHeight) * 100;
   //     bar.style.height = progressHeight + "%";
   //   });
 
   // window.onscroll = () => {
-  //   var progressHeight = (window.pageYOffset / totalHeight) * 100;
+  //   const progressHeight = (window.pageYOffset / totalHeight) * 100;
   //   bar.style.height = progressHeight + "%";
   // };
 
   return (
     <>
-      <div id="progressBar"></div>
-      <div id="progressBarContainer"></div>
+      {/* <div id="progressBar"></div>
+      <div id="progressBarContainer"></div> */}
       <GlobalStyled />
       <Home />
       <SectionMiddle />

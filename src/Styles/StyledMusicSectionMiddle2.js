@@ -55,6 +55,8 @@ export const StyledDiv10 = styled.div`
 export const Img1 = styled.img`
   width: 120%;
   border-radius: 5px;
+  box-shadow: 0 0 0.5rem #85d2ef, -5px -5px 10px 3px #4c006c,
+    5px 5px 10px 4px #b9004e;
 `;
 export const Img2 = styled.img`
   width: 100%;
