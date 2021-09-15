@@ -29,13 +29,6 @@ export const StyledDiv5 = styled.div`
 export const StyledDiv6 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
 `;
-// export const StyledDiv7 = styled.div``;
-// export const StyledDiv8 = styled.div``;
-// export const StyledDiv9 = styled.div``;
-// export const StyledDiv10 = styled.div``;
-// export const StyledDiv11 = styled.div``;
-// export const StyledDiv12 = styled.div``;
-// export const StyledDiv13 = styled.div``;
 export const Img1 = styled.img`
   width: 100%;
   border-radius: 7px;
@@ -46,14 +39,19 @@ export const Img2 = styled.img`
   width: 80px;
 `;
 export const Img3 = styled.img`
-  width: 99%;
-  border-radius: 3px;
-  box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff, 0 0 1rem #888f01,
-    inset 0 0 1rem #888f01, 0 0 1rem #888f01, inset 2px 9px 4rem #888f01;
+  width: 100%;
+  border-top-left-radius: 120px 24px;
+  border-top-right-radius: 16px 101px;
+  border-bottom-left-radius: 33px 133px;
+  border-bottom-right-radius: 9px 127px;
+  box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff, 0 0 6rem 5px #888f01,
+    0 0 1rem 3px #ffffff, 0 0 1rem #888f01, -1px 0px 3rem 5px #888f01;
 `;
 export const Img4 = styled.img`
   width: 95%;
   border-radius: 7px;
+  box-shadow: #3f51b5 0px 0px 0px 2px, #673ab7 0px 4px 6px -1px,
+    rgb(255 255 255) 0px 1px 3px 8px inset;
 `;
 export const Img5 = styled.img`
   width: 100%;

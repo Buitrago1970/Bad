@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import {
   StyledContainerHome,
   Music,
@@ -19,42 +19,36 @@ import {
   Icon1,
   Icon,
 } from "../Styles/StyledMusicSectionMiddle2";
-
-import CientoVeinte from "../images/maxresdefault (7).jpg";
-import corazon from "../images/maxresdefault (9).jpg";
-import yandel from "../images/maxresdefault (11).jpg";
-import volvi from "../images/volvi.png";
-
-import cientoVeinteIcon from "../images/icons/icons_svg/songs_icons/120icon.svg";
-import yandelIcon from "../images/icons/icons_svg/songs_icons/llorablanco.svg";
-import volviIcon from "../images/icons/icons_svg/songs_icons/volvi.svg";
+import AppContext from "../context/AppContext";
 
 export default function MusicSectionMiddle() {
+  const { state } = useContext(AppContext);
+  const { song_covers, song_icons } = state;
   return (
     <>
       <StyledContainerHome>
         <Music>
           <StyledDiv1>
-            <Icon1 src={cientoVeinteIcon} alt="img" />
+            <Icon1 src={song_icons[4].image} alt="0" />
           </StyledDiv1>
           <StyledDiv2>
-            <Img1 src={CientoVeinte} alt="img" />
+            <Img1 src={song_covers[5].image} alt="1" />
           </StyledDiv2>
           <StyledDiv3>
-            <Img2 src={corazon} />
+            <Img2 src={song_covers[4].image} />
           </StyledDiv3>
           <StyledDiv4>❤</StyledDiv4>
           <StyledDiv5>
-            <Img3 src={yandel} alt="img" />
+            <Img3 src={song_covers[2].image} alt="2" />
           </StyledDiv5>
           <StyledDiv6>
-            <Icon src={yandelIcon} alt="img" />
+            <Icon src={song_icons[5].image} alt="3" />
           </StyledDiv6>
           <StyledDiv7>
-            <Icon src={volviIcon} alt="img" />
+            <Icon src={song_icons[6].image} alt="4" />
           </StyledDiv7>
           <StyledDiv8>
-            <Img4 src={volvi} alt="img" />
+            <Img4 src={song_covers[0].image} alt="img" />
           </StyledDiv8>
           <StyledDiv9></StyledDiv9>
           <StyledDiv10>{"BYE ME FUI"}</StyledDiv10>

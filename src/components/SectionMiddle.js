@@ -1,4 +1,5 @@
-import * as React from "react";
+import React, { useContext } from "react";
+import AppContext from "../context/AppContext";
 import {
   StyledContainerHome,
   StyledSectionMiddle,
@@ -14,37 +15,31 @@ import {
   Img,
 } from "../Styles/styledSectionMiddle";
 
-import conejo from "../images/icons/icons_svg/bad bunny logo.svg";
-import oasis from "../images/oasis.jpg";
-import x100pretext from "../images/icons/icons_svg/x100prelogo.svg";
-
-import BlackShoes from "../images/icons/badbunnyshoes.svg";
-import BrownShoes from "../images/icons/brownshoes.svg";
-import RoseShoes from "../images/icons/roseShoes.svg";
-
 export default function SectionMiddle() {
+  const { state } = useContext(AppContext);
+  const { albums_cover, iconos_generales, shoes } = state;
   return (
     <>
       <StyledContainerHome>
         <StyledSectionMiddle>
           <StyledDiv1>
-            <Img src={conejo} alt="conejo" />
+            <Img src={iconos_generales[0].image} alt="conejo" />
           </StyledDiv1>
           <StyledDiv2>
-            <StyledAlbum src={oasis} alt="oasis" />
+            <StyledAlbum src={albums_cover[4].image} alt="oasis" />
           </StyledDiv2>
           <StyledDiv3>❤</StyledDiv3>
           <StyledDiv4>
-            <Img100pre src={x100pretext} alt="x100pretext" />
+            <Img100pre src={iconos_generales[5].image} alt="x100pretext" />
           </StyledDiv4>
           <StyledDiv5>
-            <Img src={BlackShoes} alt="BlackShoes" />
+            <Img src={shoes[2].image} alt="BlackShoes" />
           </StyledDiv5>
           <StyledDiv6>
-            <Img src={RoseShoes} alt="RoseShoes" />
+            <Img src={shoes[1].image} alt="RoseShoes" />
           </StyledDiv6>
           <StyledDiv7>
-            <Img src={BrownShoes} alt="BrownShoes" />
+            <Img src={shoes[0].image} alt="BrownShoes" />
           </StyledDiv7>
         </StyledSectionMiddle>
       </StyledContainerHome>

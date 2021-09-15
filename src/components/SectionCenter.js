@@ -1,4 +1,5 @@
-import * as React from "react";
+import React, { useContext } from "react";
+import AppContext from "../context/AppContext";
 import {
   StyledContainerHome,
   StyledSectionCenter,
@@ -12,29 +13,28 @@ import {
   StyledAlbum,
   StyledAlbum1,
 } from "../Styles/styledSectionCenter";
-import gafas from "../images/Sin título.png";
-import EUTDL from "../images/ab67616d0000b273005ee342f4eef2cc6e8436ab.jpg";
 import poster from "../images/Bad Bunny discovered by Jaqui Flores on We Heart It.jpg";
-import yhlqmdlg from "../images/yhlqmdlg-scaled.jpg";
 
 export default function SectionCenter() {
+  const { state } = useContext(AppContext);
+  const { albums_cover, iconos_generales } = state;
   return (
     <>
       <StyledContainerHome>
         <StyledSectionCenter>
           <Div>{"<3"}✨</Div>
           <StyledDiv0>
-            <StyledAlbum1 src={EUTDL} alt="yhlqmdlg" />
+            <StyledAlbum1 src={albums_cover[1].image} alt="yhlqmdlg" />
           </StyledDiv0>
           <StyledDiv1>
-            <StyledImg src={gafas} alt="gafas" />
+            <StyledImg src={iconos_generales[8].image} alt="gafas" />
           </StyledDiv1>
           <StyledDiv2>
             <StyledPoster src={poster} alt="oasis" />
           </StyledDiv2>
           <StyledDiv3>
             __________ 🐱🐈🌈
-            <StyledAlbum src={yhlqmdlg} alt="yhlqmdlg" />
+            <StyledAlbum src={albums_cover[0].image} alt="yhlqmdlg" />
           </StyledDiv3>
         </StyledSectionCenter>
       </StyledContainerHome>

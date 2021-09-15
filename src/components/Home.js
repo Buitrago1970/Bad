@@ -1,4 +1,5 @@
-import * as React from "react";
+import React, { useContext } from "react";
+import AppContext from "../context/AppContext";
 import {
   StyledHome,
   StyledDiv1,
@@ -14,31 +15,28 @@ import {
   StyledImgeye,
 } from "../Styles/styled";
 
-import x100pre from "../images/x100pre.jpg";
-import LQNIAS from "../images/Las Que No Iban A Salir.jpg";
-import heart from "../images/icons/icons_svg/heart.svg";
-import ojo from "../images/icons/icons_svg/ojo.svg";
-import manos from "../images/icons/icons_svg/manos2.svg";
-
 export default function Home() {
+  const { state } = useContext(AppContext);
+  const { albums_cover } = state;
+  const { iconos_generales } = state;
   return (
     <>
       <StyledContainerHome>
         <StyledHome>
           <StyledDiv1>
-            <Img1 src={x100pre} alt="x100pre" />
+            <Img1 src={albums_cover[2].image} alt="x100pre" />
           </StyledDiv1>
           <StyledDiv2>
-            <StyledImgeye src={ojo} alt="eye" />
+            <StyledImgeye src={iconos_generales[6].image} alt="eye" />
           </StyledDiv2>
           <StyledDiv3>
-            <StyledImgheart src={heart} alt="eye" />
+            <StyledImgheart src={iconos_generales[1].image} alt="eye" />
           </StyledDiv3>
           <StyledDiv4>
-            <StyledImghands src={manos} alt="eye" />
+            <StyledImghands src={iconos_generales[7].image} alt="eye" />
           </StyledDiv4>
           <StyledDiv5>
-            <Img2 src={LQNIAS} alt="x100pre" />
+            <Img2 src={albums_cover[3].image} alt="x100pre" />
           </StyledDiv5>
         </StyledHome>
       </StyledContainerHome>

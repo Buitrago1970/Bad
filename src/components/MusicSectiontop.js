@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useContext } from "react";
+import AppContext from "../context/AppContext";
 import {
   StyledContainerHome,
   Music,
@@ -14,35 +15,32 @@ import {
   Icon,
 } from "../Styles/StyledMusic";
 
-import cienMillones from "../images/maxresdefault (1).jpg";
-import yonaguni from "../images/maxresdefault (2).jpg";
-import haciendoQueMeAmas from "../images/maxresdefault (5).jpg";
-
 import cienMillonesIcon from "../images/icons/icons_svg/songs_icons/100millones.svg";
-import yonaguniIcon from "../images/icons/icons_svg/songs_icons/sintitulo.svg";
-import haciendoQueMeAmasIcon from "../images/icons/icons_svg/songs_icons/haciendo que me amas.svg";
+
 export default function MusicSectiontop() {
+  const { state } = useContext(AppContext);
+  const { song_covers, song_icons } = state;
   return (
     <>
       <StyledContainerHome>
         <Music>
           <StyledDiv1>
-            <Img1 src={cienMillones} alt="img" />
+            <Img1 src={song_covers[11].image} alt="100 millones icon" />
           </StyledDiv1>
           <StyledDiv2>
             <Icon src={cienMillonesIcon} alt="100millonesicon" />
           </StyledDiv2>
           <StyledDiv3>
-            <Icon src={yonaguniIcon} alt="img" />
+            <Icon src={song_icons[1].image} alt="yonaguni" />
           </StyledDiv3>
           <StyledDiv4>
-            <Img3 src={yonaguni} alt="img" />
+            <Img3 src={song_covers[10].image} alt="1" />
           </StyledDiv4>
           <StyledDiv5>
-            <Img4 src={haciendoQueMeAmas} alt="img" />
+            <Img4 src={song_covers[7].image} alt="0" />
           </StyledDiv5>
           <StyledDiv6>
-            <Icon src={haciendoQueMeAmasIcon} alt="img" />
+            <Icon src={song_icons[0].image} alt="2" />
           </StyledDiv6>
         </Music>
       </StyledContainerHome>
