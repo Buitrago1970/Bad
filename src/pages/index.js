@@ -18,8 +18,8 @@ export default function IndexPage() {
       <Home />
       <SectionMiddle />
       <SectionCenter />
-      <Music />
-      <Footer />
+      {/* <Music /> */}
+      {/* <Footer }/> */}
     </AppContext.Provider>
   );
 }

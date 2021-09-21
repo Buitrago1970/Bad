@@ -3,20 +3,16 @@ import React from "react";
 import "../Styles/Footer.css";
 
 import { AiOutlineInstagram, AiOutlineGithub } from "react-icons/ai";
-import simpson from "../images/oie_15234345AypIX1Y7.gif";
-import corazon from "../images/icons/colombiaCorazon.svg";
-import jb from "../images/icons/neonjuanbui.svg";
+import simpson from "../images/giphy (1).gif";
+// import jb from "../images/icons/neonjuanbui.svg";
 
 export default function Work() {
   return (
     <>
       <footer className="footer" id="footer">
         <div className="container-rights-reseved">
-          {/* <p className="footers">Desing and developed by Juuan Bui.</p>
-          <p className="footers">All Rights reserved.</p> */}
-          <p className="whit-love-p">Echo en </p>
-          <img className="icon" src={corazon} alt="colmbian Heart" />
-          <p className="whit-love-p">{"    by Juan Buitrago."} </p>
+          <p className="footers">Desing and developed by Juuan Bui.</p>
+          <p className="whit-love-p">Echo con {"<3"} en Colombia, Bogotá</p>
         </div>
 
         <div className="email">
@@ -39,7 +35,7 @@ export default function Work() {
               target="_blank"
               rel="noreferrer nofollow"
             >
-              <img className="icon-media" src={jb} alt="colmbian Heart" />
+              {/* <img className="icon-media" src={jb} alt="colmbian Heart" /> */}
             </a>
             <a
               className="footer-button github"

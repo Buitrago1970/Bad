@@ -69,6 +69,7 @@ export const Img4 = styled.img`
   width: 100%;
   border-radius: 4px;
   border: 2px outset #ffffff;
+  
   box-shadow: #fff 0px 0px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px,
     red 0 -18px 40px, 5px 5px 12px 5px rgb(0 0 0 / 0%);
 `;

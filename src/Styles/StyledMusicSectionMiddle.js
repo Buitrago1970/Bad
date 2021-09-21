@@ -1,9 +1,9 @@
 import styled from "styled-components";
+import { device } from "../../breakpoints";
 
 export const StyledContainerHome = styled.div`
   margin: 0 37px;
 `;
-// ------------------------
 export const Music = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);

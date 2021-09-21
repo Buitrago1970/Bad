@@ -14,7 +14,7 @@ import {
   Img4,
   Gif,
 } from "../Styles/StyledMusicSectionMiddle";
-import elMundoEsMioIcon from "../images/icons/icons_svg/songs_icons/can-am2.svg";
+// import elMundoEsMioIcon from "../images/icons/icons_svg/songs_icons/can-am2.svg";
 import AppContext from "../context/AppContext";
 export default function MusicSectionMiddle() {
   const { state } = useContext(AppContext);
@@ -39,7 +39,7 @@ export default function MusicSectionMiddle() {
             <Img3 src={song_covers[6].image} alt="img" />
           </StyledDiv6>
           <StyledDiv7>
-            <Gif src={elMundoEsMioIcon} alt="img" />
+            {/* <Gif src={elMundoEsMioIcon} alt="img" /> */}
           </StyledDiv7>
         </Music>
       </StyledContainerHome>

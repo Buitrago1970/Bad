@@ -1,8 +1,18 @@
+body {
+  cursor: url(https://cdn.shopify.com/s/files/1/0094/1519/6727/files/CURSOR.png?v=1606321524),
+    default;
+  /* cursor: url(https://strapi-last.s3.amazonaws.com/yano_e9598f65c5-svg.png?v=1606321524),
+    default; */
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.gatsby-focus-wrapper {
+}
+
 ::-webkit-scrollbar {
   width: 0;
   background: transparent;
 }
-
 #progressBarContainer {
   position: fixed;
   top: 0%;
