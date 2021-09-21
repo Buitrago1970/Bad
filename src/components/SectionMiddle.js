@@ -28,7 +28,7 @@ export default function SectionMiddle() {
           <StyledDiv2>
             <StyledAlbum src={albums_cover[4].image} alt="oasis" />
           </StyledDiv2>
-          <StyledDiv3>❤🧡💛💚💙💜🤎🖤🤍💖💗</StyledDiv3>
+          <StyledDiv3>❤</StyledDiv3>
           <StyledDiv4>
             <Img100pre src={iconos_generales[5].image} alt="x100pretext" />
           </StyledDiv4>
