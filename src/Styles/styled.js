@@ -21,11 +21,13 @@ export const StyledHome = styled.div`
 `;
 export const StyledDiv1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
-  max-width: 300px;
   @media ${device.sm} {
     padding-top: 0;
     margin: 0;
-    width: 190%;
+    width: 150%;
+  }
+  @media ${device.xs} {
+    width: 200%;
   }
 `;
 export const StyledDiv2 = styled.div`
@@ -33,6 +35,9 @@ export const StyledDiv2 = styled.div`
 `;
 export const StyledDiv3 = styled.div`
   grid-area: 1 / 3 / 2 / 4;
+  @media ${device.xs} {
+    margin-left: 32px;
+  }
 `;
 export const StyledDiv4 = styled.div`
   grid-area: 2 / 1 / 3 / 3;
@@ -43,6 +48,13 @@ export const StyledDiv4 = styled.div`
 `;
 export const StyledDiv5 = styled.div`
   grid-area: 2 / 5 / 3 / 6;
+  @media ${device.sm} {
+    width: 150%;
+  }
+  @media ${device.xs} {
+    width: 200%;
+    grid-area: 2 / 5 / 3 / 4;
+  }
 `;
 export const Img1 = styled.img`
   width: 90%;
@@ -50,10 +62,9 @@ export const Img1 = styled.img`
   box-shadow: 0 0 0.5rem #fefefe, inset 0 0 0.5rem #fff, 0 0 2rem #ffffff,
     inset 0 0 2rem #ffffff, 0 0 4rem #ffffff, inset 0 0 4rem #ffffff;
   @media ${device.sm} {
-    width: 105%;
+    width: 100%;
   }
   @media ${device.xs} {
-    width: 100%;
   }
 `;
 export const Img2 = styled.img`
@@ -62,11 +73,11 @@ export const Img2 = styled.img`
   box-shadow: 0 0 0.5rem #6c7771, inset 0 0 0.5rem #fff, 0 0 2rem #fee902,
     inset 0 0 2rem #feea00, 0 0 4rem #ffeb00, inset 0 0 4rem #fdec00;
   @media ${device.sm} {
-    width: 105%;
+    width: 100%;
+    margin-left: -186px;
   }
   @media ${device.xs} {
-    width: 150%;
-    margin-left: -61px;
+    margin: 0;
   }
 `;
 export const StyledImgeye = styled.img`
