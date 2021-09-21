@@ -25,6 +25,7 @@ export const StyledDiv1 = styled.div`
   @media ${device.sm} {
     padding-top: 0;
     margin: 0;
+    width: 190%;
   }
 `;
 export const StyledDiv2 = styled.div`
@@ -52,7 +53,7 @@ export const Img1 = styled.img`
     width: 105%;
   }
   @media ${device.xs} {
-    width: 150%;
+    width: 100%;
   }
 `;
 export const Img2 = styled.img`
