@@ -37,6 +37,9 @@ export const StyledDiv2 = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  @media ${device.xs} {
+    width: 190%;
+  }
 `;
 export const StyledDiv3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
@@ -51,18 +54,24 @@ export const StyledDiv3 = styled.div`
 `;
 export const StyledDiv4 = styled.div`
   grid-area: 2 / 2 / 3 / 3;
-  @media ${device.xs} {
-    grid-area: 2 / 1 / 3 / 3;
-  }
 `;
 export const StyledDiv5 = styled.div`
   grid-area: 3 / 5 / 4 / 6;
+  @media ${device.xs} {
+    grid-area: 3 / 5 / 4 / 6;
+  }
 `;
 export const StyledDiv6 = styled.div`
   grid-area: 3 / 3 / 5 / 5;
+  @media ${device.xs} {
+    grid-area: 3 / 3 / 4 / 4;
+  }
 `;
 export const StyledDiv7 = styled.div`
   grid-area: 3 / 1 / 5 / 3;
+  @media ${device.xs} {
+    grid-area: 3 / 1 / 4 / 2;
+  }
 `;
 export const Img100pre = styled.img`
   width: 100px;
@@ -79,15 +88,13 @@ export const StyledAlbum = styled.img`
   @media ${device.sm} {
   }
   @media ${device.xs} {
-    width: 155%;
+    width: 100%;
+    margin-right: 19px;
   }
 `;
 export const Img = styled.img`
   width: 180px;
   @media ${device.sm} {
-    width: 75%;
-  }
-  @media ${device.xs} {
-    width: 65%;
+    width: 100%;
   }
 `;
