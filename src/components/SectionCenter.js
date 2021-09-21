@@ -33,8 +33,7 @@ export default function SectionCenter() {
             <StyledPoster src={poster} alt="oasis" />
           </StyledDiv2>
           <StyledDiv3>
-            __________ 🐱🐈🌈
-            <StyledAlbum src={albums_cover[0].image} alt="yhlqmdlg" />
+            <StyledAlbum src={albums_cover[0].image} alt="eutdm" />
           </StyledDiv3>
         </StyledSectionCenter>
       </StyledContainerHome>

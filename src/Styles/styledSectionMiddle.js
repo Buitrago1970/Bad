@@ -33,11 +33,12 @@ export const StyledDiv1 = styled.div`
   }
 `;
 export const StyledDiv2 = styled.div`
+  width: 110%;
   grid-area: 2 / 4 / 3 / 4;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  @media ${device.xs} {
+  @media ${device.sm} {
     width: 190%;
   }
 `;
@@ -57,19 +58,19 @@ export const StyledDiv4 = styled.div`
 `;
 export const StyledDiv5 = styled.div`
   grid-area: 3 / 5 / 4 / 6;
-  @media ${device.xs} {
+  @media ${device.sm} {
     grid-area: 3 / 5 / 4 / 6;
   }
 `;
 export const StyledDiv6 = styled.div`
   grid-area: 3 / 3 / 5 / 5;
-  @media ${device.xs} {
+  @media ${device.sm} {
     grid-area: 3 / 3 / 4 / 4;
   }
 `;
 export const StyledDiv7 = styled.div`
   grid-area: 3 / 1 / 5 / 3;
-  @media ${device.xs} {
+  @media ${device.sm} {
     grid-area: 3 / 1 / 4 / 2;
   }
 `;
@@ -80,7 +81,7 @@ export const Img100pre = styled.img`
   }
 `;
 export const StyledAlbum = styled.img`
-  width: 90%;
+  width: 100%;
   border-radius: 3px;
   box-shadow: rgb(0 9 255) 0px 0px 10px 3px, rgb(6 255 0) 0px 0px 10px 6px,
     rgb(255 214 0) 0px 0px 10px 9px, rgb(255 106 0) 0px 0px 10px 12px,
@@ -88,7 +89,6 @@ export const StyledAlbum = styled.img`
   @media ${device.sm} {
   }
   @media ${device.xs} {
-    width: 100%;
     margin-right: 19px;
   }
 `;
