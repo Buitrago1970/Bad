@@ -53,7 +53,6 @@
 .simpson {
   width: 40%;
 }
-
 @media screen and (max-width: 820px) {
   .container-rights-reseved {
     display: block;
