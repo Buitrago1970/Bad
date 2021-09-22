@@ -21,20 +21,23 @@ export const Music = styled.div`
 export const StyledDiv1 = styled.div`
   grid-area: 1 / 3 / 2 / 4;
   @media ${device.sm} {
-    width: 120%;
-    width: 120%;
+    width: 135%;
   }
 `;
 export const StyledDiv2 = styled.div`
   grid-area: 2 / 3 / 3 / 4;
   @media ${device.sm} {
-    width: 120%;
+    width: 135%;
+    position: relative;
+    right: 25%;
   }
 `;
 export const StyledDiv3 = styled.div`
   grid-area: 3 / 5 / 4 / 6;
   @media ${device.sm} {
-    width: 120%;
+    width: 135%;
+    position: relative;
+    right: 25%;
   }
 `;
 export const StyledDiv4 = styled.div`
@@ -42,20 +45,23 @@ export const StyledDiv4 = styled.div`
   text-shadow: -2px 2px 0px #ff99cc, -4px 0px 0px #64a5b7;
   font-size: 30px;
   @media ${device.sm} {
-    width: 120%;
-    font-size: 20px;
+    width: 135%;
+    font-size: 15px;
+    position: relative;
+    right: 25%;
   }
 `;
 export const StyledDiv5 = styled.div`
   grid-area: 4 / 2 / 5 / 3;
   @media ${device.sm} {
-    width: 120%;
+    width: 130%;
+    padding-left: 40px;
   }
 `;
 export const StyledDiv6 = styled.div`
   grid-area: 4 / 1 / 5 / 2;
   @media ${device.sm} {
-    width: 120%;
+    width: 135%;
   }
 `;
 export const StyledDiv7 = styled.div`
@@ -65,19 +71,19 @@ export const StyledDiv7 = styled.div`
   -webkit-text-stroke-color: hsl(0deg 46% 96% / 72%);
   font-size: 50px;
   @media ${device.sm} {
-    font-size: 20px;
+    font-size: 15px;
   }
 `;
 export const StyledDiv8 = styled.div`
   grid-area: 3 / 4 / 4 / 5;
   @media ${device.sm} {
-    width: 120%;
+    width: 148%;
   }
 `;
 export const StyledDiv9 = styled.div`
   grid-area: 5 / 3 / 6 / 4;
   @media ${device.sm} {
-    width: 120%;
+    width: 140%;
   }
 `;
 export const Img1 = styled.img`
@@ -89,6 +95,11 @@ export const Img1 = styled.img`
     rgb(255 156 85) 30px -30px, rgb(0 0 17) 40px -40px 0px -3px,
     rgb(255 85 85) 40px -40px;
   @media ${device.sm} {
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(0 0 17) 5px -5px 0px -3px,
+      rgb(31 193 27) 5px -5px, rgb(0 0 17) 10px -10px 0px -3px,
+      rgb(255 217 19) 10px -10px, rgb(0 0 17) 15px -15px 0px -3px,
+      rgb(255 156 85) 15px -15px, rgb(0 0 17) 20px -20px 0px -3px,
+      rgb(255 85 85) 20px -20px;
   }
 `;
 export const Img2 = styled.img`
@@ -98,13 +109,13 @@ export const Img2 = styled.img`
     rgb(4 2 5) -3px -3px 0px, #030102 0px -2px 5px 7px,
     -4px 3px 6px 0px rgb(2 2 2);
   border: 2px outset #020202;
-  @media ${device.sm} {
-  }
 `;
 export const Img3 = styled.img`
   width: 100%;
   border-radius: 7px;
   @media ${device.sm} {
+    position: relative;
+    right: 55%;
   }
 `;
 export const Img4 = styled.img`
@@ -113,12 +124,7 @@ export const Img4 = styled.img`
   border: 2px outset #ffffff;
   box-shadow: #fff 0px 0px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px,
     red 0 -18px 40px, 5px 5px 12px 5px rgb(0 0 0 / 0%);
-  @media ${device.sm} {
-  }
 `;
 export const Icon = styled.img`
   width: 70%;
-  @media ${device.sm} {
-    padding-left: 25px;
-  }
 `;

@@ -133,6 +133,6 @@ export const Icon1 = styled.img`
 export const Icon = styled.img`
   width: 70%;
   @media ${device.sm} {
-    width: 120%;
+    width: 110%;
   }
 `;
