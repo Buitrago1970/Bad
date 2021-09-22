@@ -3,6 +3,9 @@ import { device } from "../../breakpoints";
 
 export const StyledContainerHome = styled.div`
   margin: 0 37px;
+  @media ${device.sm} {
+    margin: 0 10px;
+  }
 `;
 export const Music = styled.div`
   display: grid;
@@ -10,27 +13,42 @@ export const Music = styled.div`
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  @media ${device.sm} {
+    grid-row-gap: 20px;
+  }
 `;
 
 export const StyledDiv1 = styled.div`
   grid-area: 1 / 4 / 2 / 5;
+  @media ${device.sm} {
+  }
 `;
 export const StyledDiv2 = styled.div`
   grid-area: 2 / 4 / 3 / 5;
+  @media ${device.sm} {
+    width: 165%;
+  }
 `;
 export const StyledDiv3 = styled.div`
   grid-area: 1 / 1 / 4 / 3;
+  @media ${device.sm} {
+    width: 121%;
+  }
 `;
 export const StyledDiv4 = styled.div`
   grid-area: 2 / 5 / 3 / 6;
   display: flex;
   justify-content: flex-end;
-`;
-export const StyledDiv5 = styled.div`
-  grid-area: 1 / 4 / 3 / 5;
+  @media ${device.sm} {
+    align-items: flex-end;
+  }
 `;
 export const StyledDiv6 = styled.div`
   grid-area: 3 / 4 / 4 / 5;
+  @media ${device.sm} {
+    grid-area: 3 / 3 / 4 / 4;
+    width: 186%;
+  }
 `;
 export const StyledDiv7 = styled.div`
   grid-area: 3 / 5 / 4 / 6;
@@ -38,6 +56,9 @@ export const StyledDiv7 = styled.div`
 
 export const Img1 = styled.img`
   width: 40%;
+  @media ${device.sm} {
+    width: 70%;
+  }
 `;
 export const Img2 = styled.img`
   width: 100%;
@@ -69,4 +90,7 @@ export const Icon = styled.img`
 `;
 export const Gif = styled.img`
   filter: drop-shadow(0 10px 10px rgba(25, 42, 456));
+  @media ${device.sm} {
+    width: 170%;
+  }
 `;
