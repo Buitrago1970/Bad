@@ -43,6 +43,10 @@ export const StyledDiv4 = styled.div`
 `;
 export const StyledDiv5 = styled.div`
   grid-area: 2 / 5 / 3 / 6;
+  @media ${device.sm} {
+    width: 160%;
+    margin-left: -51px;
+  }
 `;
 export const Img1 = styled.img`
   width: 90%;
@@ -50,7 +54,6 @@ export const Img1 = styled.img`
   box-shadow: 0 0 0.5rem #fefefe, inset 0 0 0.5rem #fff, 0 0 2rem #ffffff,
     inset 0 0 2rem #ffffff, 0 0 4rem #ffffff, inset 0 0 4rem #ffffff;
   @media ${device.sm} {
-    width: 105%;
   }
   @media ${device.xs} {
     width: 100%;
@@ -65,8 +68,7 @@ export const Img2 = styled.img`
     width: 105%;
   }
   @media ${device.xs} {
-    width: 150%;
-    margin-left: -61px;
+    width: 100%;
   }
 `;
 export const StyledImgeye = styled.img`

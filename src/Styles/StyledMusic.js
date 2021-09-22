@@ -13,25 +13,51 @@ export const Music = styled.div`
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 100px;
+  @media ${device.sm} {
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 45px;
+  }
 `;
 
 export const StyledDiv1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
+  @media ${device.sm} {
+    width: 200%;
+  }
 `;
 export const StyledDiv2 = styled.div`
   grid-area: 1 / 2 / 2 / 3;
+  @media ${device.sm} {
+    grid-area: 1 / 3 / 2 / 3;
+  }
 `;
 export const StyledDiv3 = styled.div`
   grid-area: 2 / 3 / 3 / 3;
+  @media ${device.sm} {
+    width: 160%;
+    grid-area: 3 / 2 / 3 / 3;
+  }
 `;
 export const StyledDiv4 = styled.div`
   grid-area: 2 / 4 / 3 / 4;
+  @media ${device.sm} {
+    width: 191%;
+    grid-area: 3 / 4 / 3 / 4;
+  }
 `;
 export const StyledDiv5 = styled.div`
   grid-area: 1 / 4 / 3 / 5;
+  @media ${device.sm} {
+    grid-area: 2 / 3 / 3 / 4;
+    width: 200%;
+  }
 `;
 export const StyledDiv6 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
+  @media ${device.sm} {
+    grid-area: 2 / 5 / 3 / 5;
+    width: 100%;
+  }
 `;
 export const Img1 = styled.img`
   width: 100%;
@@ -40,9 +66,6 @@ export const Img1 = styled.img`
     inset 0 0 1rem #545454, 0 0 1rem #545454, inset 2px 9px 4rem #c71c1c;
   @media ${device.sm} {
   }
-`;
-export const Img2 = styled.img`
-  width: 80px;
 `;
 export const Img3 = styled.img`
   width: 100%;
@@ -61,16 +84,11 @@ export const Img4 = styled.img`
   @media ${device.sm} {
   }
 `;
-export const Img5 = styled.img`
-  width: 100%;
-`;
-export const Gif = styled.img`
-  width: 120px;
-`;
 export const Icon = styled.img`
   width: 120px;
   padding-left: 64px;
   @media ${device.sm} {
-    padding-left: 25px;
+    width: 100%;
+    padding-left: 0;
   }
 `;
