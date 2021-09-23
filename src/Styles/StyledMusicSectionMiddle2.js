@@ -95,7 +95,7 @@ export const Img1 = styled.img`
 export const Img2 = styled.img`
   width: 100%;
   border-radius: 7px;
-  filter: blur(3px);
+  filter: blur(1px);
   box-shadow: #ffffff 0px 0px 20px 2px, #ffffff 0px 0px 20px 4px,
     rgb(255 255 255) 0px 1px 11px 20px inset;
   @media ${device.sm} {
@@ -108,8 +108,6 @@ export const Img3 = styled.img`
   box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
     rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
     rgba(240, 46, 170, 0.05) 25px 25px;
-  @media ${device.sm} {
-  }
 `;
 export const Img4 = styled.img`
   width: 100%;
@@ -120,8 +118,9 @@ export const Img4 = styled.img`
     rgb(255 255 255 / 88%) 0px 2px 1px, rgb(255 255 255 / 84%) 0px 4px 2px,
     rgb(255 255 255 / 72%) 0px 8px 4px, rgb(255 255 255 / 9%) 0px 16px 8px,
     rgb(255 255 255 / 9%) 0px 32px 16px;
-  @media ${device.sm} {
-  }
+`;
+export const Img5 = styled.img`
+  width: 100%;
 `;
 export const Icon1 = styled.img`
   width: 120%;

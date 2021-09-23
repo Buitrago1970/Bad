@@ -16,10 +16,12 @@ import {
   Img2,
   Img3,
   Img4,
+  Img5,
   Icon1,
   Icon,
 } from "../Styles/StyledMusicSectionMiddle2";
 import AppContext from "../context/AppContext";
+import imagesxd from "../images/Liquid effect (1).png";
 
 export default function MusicSectionMiddle() {
   const { state } = useContext(AppContext);
@@ -50,8 +52,10 @@ export default function MusicSectionMiddle() {
           <StyledDiv8>
             <Img4 src={song_covers[0].image} alt="img" />
           </StyledDiv8>
-          <StyledDiv9></StyledDiv9>
-          <StyledDiv10>{"BYE ME FUI"}</StyledDiv10>
+
+          <StyledDiv10>
+            <Img5 src={imagesxd} alt="img" />
+          </StyledDiv10>
         </Music>
       </StyledContainerHome>
     </>

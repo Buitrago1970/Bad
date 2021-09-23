@@ -5,14 +5,14 @@ import "../Styles/Footer.css";
 import { AiOutlineInstagram, AiOutlineGithub } from "react-icons/ai";
 import simpson from "../images/giphy (1).gif";
 // import jb from "../images/icons/neonjuanbui.svg";
+import desing from "../images/desing.png";
 
 export default function Work() {
   return (
     <>
       <footer className="footer" id="footer">
         <div className="container-rights-reseved">
-          <p className="footers">Desing and developed by Juuan Bui.</p>
-          <p className="whit-love-p">Echo con {"<3"} en Colombia, Bogotá</p>
+          <img className="desing" src={desing} alt="" />
         </div>
 
         <div className="email">

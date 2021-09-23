@@ -242,5 +242,13 @@ export default {
       id: "9",
       image: "https://strapi-last.s3.amazonaws.com/museo_8601eea8e4.svg",
     },
+    {
+      id: "10",
+      image: "https://strapi-last.s3.amazonaws.com/Nuevo+proyecto+(3).png",
+    },
+    {
+      id: "11",
+      image: "https://strapi-last.s3.amazonaws.com/maxresdefault+(1).png",
+    },
   ],
 };

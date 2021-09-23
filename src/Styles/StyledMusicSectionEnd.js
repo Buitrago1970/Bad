@@ -125,6 +125,10 @@ export const Img4 = styled.img`
   box-shadow: #fff 0px 0px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px,
     red 0 -18px 40px, 5px 5px 12px 5px rgb(0 0 0 / 0%);
 `;
+export const Img5 = styled.img`
+  width: 100%;
+
+`;
 export const Icon = styled.img`
   width: 70%;
 `;

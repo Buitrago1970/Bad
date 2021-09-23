@@ -15,6 +15,7 @@ import {
   Img2,
   Img3,
   Img4,
+  Img5,
   Icon,
 } from "../Styles/StyledMusicSectionEnd";
 import AppContext from "../context/AppContext";
@@ -35,14 +36,18 @@ export default function MusicSectionMiddle() {
           <StyledDiv3>
             <Icon src={song_icons[8].image} alt="img" />
           </StyledDiv3>
-          <StyledDiv4>{"La Droga"}</StyledDiv4>
+          <StyledDiv4>
+            <Img5 src={song_icons[11].image} />
+          </StyledDiv4>
           <StyledDiv5>
             <Icon src={song_icons[9].image} alt="img" />
           </StyledDiv5>
           <StyledDiv6>
             <Img2 src={song_covers[3].image} alt="img" />
           </StyledDiv6>
-          <StyledDiv7>{"Volando "}</StyledDiv7>
+          <StyledDiv7>
+            <Img5 src={song_icons[10].image} />
+          </StyledDiv7>
           <StyledDiv8>
             <Img3 src={song_covers[12].image} alt="img" />
           </StyledDiv8>
