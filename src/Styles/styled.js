@@ -96,9 +96,5 @@ export const StyledImgheart = styled.img`
   }
 `;
 export const GlobalStyled = createGlobalStyle`
-    body{
-        margin: 0;
-        background: #001;
-        color: #fff;
-    }
+
 `;

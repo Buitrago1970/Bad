@@ -15,7 +15,7 @@ import {
   Icon,
 } from "../Styles/StyledMusic";
 
-import cienMillonesIcon from "../images/icons/icons_svg/songs_icons/100millones.svg";
+import cienMillonesIcon from "../images/100millones.svg";
 
 export default function MusicSectiontop() {
   const { state } = useContext(AppContext);

@@ -9,6 +9,9 @@
 }
 .email {
   grid-area: 1 / 3 / 2 / 4;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .icon {
   width: 5%;
@@ -35,6 +38,7 @@
 .container-img-f {
   display: flex;
   justify-content: flex-end;
+  width: 40%;
 }
 .footer-button {
   font-size: 25px;
@@ -47,7 +51,7 @@
   color: #2f2f2f;
 }
 .simpson {
-  width: 40%;
+  width: 100%;
   margin-bottom: 15px;
 }
 .desing {
@@ -74,8 +78,5 @@
   }
   .desing {
     width: 75px;
-  }
-  .simpson {
-    width: 50%;
   }
 }

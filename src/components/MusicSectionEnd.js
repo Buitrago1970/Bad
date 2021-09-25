@@ -28,7 +28,7 @@ export default function MusicSectionMiddle() {
       <StyledContainerHome>
         <Music>
           <StyledDiv1>
-            <Icon src={song_icons[1].image} alt="img" />
+            <Icon src={song_icons[7].image} alt="img" />
           </StyledDiv1>
           <StyledDiv2>
             <Img1 src={song_covers[7].image} alt="img" />

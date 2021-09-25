@@ -4,7 +4,12 @@ body {
   /* cursor: url(https://strapi-last.s3.amazonaws.com/yano_e9598f65c5-svg.png?v=1606321524),
     default; */
   max-width: 1500px;
+
   margin: 0 auto;
+}
+body {
+  margin: 0;
+  background: #000011;
 }
 .gatsby-focus-wrapper {
 }
@@ -19,7 +24,6 @@ body {
   right: 0;
   width: 10px;
   height: 100%;
-  background: rgba(255, 255, 255, 0.05);
 }
 
 #progressBar {
