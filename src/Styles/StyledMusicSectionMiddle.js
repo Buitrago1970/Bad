@@ -89,7 +89,7 @@ export const Icon = styled.img`
   width: 70%;
 `;
 export const Gif = styled.img`
-  filter: drop-shadow(0 10px 10px rgba(25, 42, 456));
+  filter: drop-shadow(0px 7px 0px #ffffff);
   @media ${device.sm} {
     width: 170%;
   }

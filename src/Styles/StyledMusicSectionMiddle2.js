@@ -17,6 +17,7 @@ export const Music = styled.div`
 `;
 export const StyledDiv1 = styled.div`
   grid-area: 1 / 3 / 1 / 4;
+  filter: drop-shadow(0px 3px 1px #ec60ff);
   @media ${device.sm} {
   }
 `;
@@ -34,6 +35,7 @@ export const StyledDiv3 = styled.div`
   }
 `;
 export const StyledDiv4 = styled.div`
+  filter: drop-shadow(0px -2px 1px #ff5b39);
   grid-area: 2 / 3 / 3 / 4;
   display: flex;
   justify-content: center;
@@ -52,17 +54,21 @@ export const StyledDiv5 = styled.div`
   }
 `;
 export const StyledDiv6 = styled.div`
+  filter: drop-shadow(0px 3px 1px #f0f);
   grid-area: 3 / 5 / 5 / 6;
   @media ${device.sm} {
     grid-area: 3 / 5 / 5 / 6;
   }
 `;
 export const StyledDiv7 = styled.div`
+  filter: drop-shadow(0px -2px 1px #ff5b39);
+
   grid-area: 3 / 2 / 5 / 3;
   @media ${device.sm} {
   }
 `;
 export const StyledDiv8 = styled.div`
+  filter: drop-shadow(0px 3px 1px #abf5ff);
   grid-area: 3 / 1 / 5 / 2;
   @media ${device.sm} {
     width: 110%;

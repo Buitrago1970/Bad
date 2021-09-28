@@ -21,11 +21,13 @@ export const Music = styled.div`
 
 export const StyledDiv1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
+
   @media ${device.sm} {
     width: 200%;
   }
 `;
 export const StyledDiv2 = styled.div`
+  filter: drop-shadow(0px 0px 3px #14ff1e);
   grid-area: 1 / 2 / 2 / 3;
   @media ${device.sm} {
     grid-area: 1 / 3 / 2 / 3;
@@ -33,6 +35,7 @@ export const StyledDiv2 = styled.div`
 `;
 export const StyledDiv3 = styled.div`
   grid-area: 2 / 3 / 3 / 3;
+  filter: drop-shadow(0px 0px 3px #ffffff);
   @media ${device.sm} {
     width: 160%;
     grid-area: 3 / 2 / 3 / 3;
@@ -53,6 +56,8 @@ export const StyledDiv5 = styled.div`
   }
 `;
 export const StyledDiv6 = styled.div`
+  filter: drop-shadow(0px 3px 1px #ec60ff);
+
   grid-area: 1 / 5 / 2 / 6;
   @media ${device.sm} {
     grid-area: 2 / 5 / 3 / 5;

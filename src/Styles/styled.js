@@ -73,6 +73,7 @@ export const Img2 = styled.img`
 `;
 export const StyledImgeye = styled.img`
   width: 67px;
+  filter: drop-shadow(0px 0px 4px #fff);
   @media ${device.sm} {
     width: 60px;
   }
@@ -82,12 +83,14 @@ export const StyledImgeye = styled.img`
 `;
 export const StyledImghands = styled.img`
   width: 75px;
+  filter: drop-shadow(0px -4px 0px #e66eb2);
   @media ${device.xs} {
     width: 60px;
   }
 `;
 export const StyledImgheart = styled.img`
   width: 59px;
+  filter: drop-shadow(0px -4px 3px #e66eb2);
   @media ${device.sm} {
     width: 47px;
   }

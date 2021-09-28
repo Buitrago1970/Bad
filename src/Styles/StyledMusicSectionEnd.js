@@ -20,6 +20,7 @@ export const Music = styled.div`
 `;
 export const StyledDiv1 = styled.div`
   grid-area: 1 / 3 / 2 / 4;
+  filter: drop-shadow(0px 0px 3px #ffffff);
   @media ${device.sm} {
     width: 135%;
   }
@@ -41,6 +42,7 @@ export const StyledDiv3 = styled.div`
   }
 `;
 export const StyledDiv4 = styled.div`
+  filter: drop-shadow(10px -5px 0px #64a5b7);
   grid-area: 2 / 5 / 3 / 6;
   text-shadow: -2px 2px 0px #ff99cc, -4px 0px 0px #64a5b7;
   font-size: 30px;
@@ -53,6 +55,7 @@ export const StyledDiv4 = styled.div`
 `;
 export const StyledDiv5 = styled.div`
   grid-area: 4 / 2 / 5 / 3;
+  filter: drop-shadow(-3px 2px 1px #ffffff);
   @media ${device.sm} {
     width: 130%;
     padding-left: 40px;
@@ -65,6 +68,7 @@ export const StyledDiv6 = styled.div`
   }
 `;
 export const StyledDiv7 = styled.div`
+  filter: drop-shadow(1px -20px 0px #64a5b7);
   grid-area: 2 / 1 / 3 / 2;
   text-shadow: 0 0 5px rgb(0 255 255), 0 0 10px #fff, 0 0 20px #0b554c,
     0 0 4px #0b554c, 0 0 40px #0b554c;
@@ -127,7 +131,6 @@ export const Img4 = styled.img`
 `;
 export const Img5 = styled.img`
   width: 100%;
-
 `;
 export const Icon = styled.img`
   width: 70%;

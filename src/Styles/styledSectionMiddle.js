@@ -24,6 +24,7 @@ export const StyledSectionMiddle = styled.div`
 `;
 
 export const StyledDiv1 = styled.div`
+  filter: drop-shadow(0px 0px 3px #fff);
   grid-area: 1 / 1 / 2 / 3;
   @media ${device.sm} {
     margin-left: 70px;
@@ -57,18 +58,21 @@ export const StyledDiv4 = styled.div`
   grid-area: 2 / 2 / 3 / 3;
 `;
 export const StyledDiv5 = styled.div`
+  filter: drop-shadow(0px 1px 1px #ffffff);
   grid-area: 3 / 5 / 4 / 6;
   @media ${device.sm} {
     grid-area: 3 / 5 / 4 / 6;
   }
 `;
 export const StyledDiv6 = styled.div`
+  filter: drop-shadow(0px 1px 1px #e7cbbf);
   grid-area: 3 / 3 / 5 / 5;
   @media ${device.sm} {
     grid-area: 3 / 3 / 4 / 4;
   }
 `;
 export const StyledDiv7 = styled.div`
+  filter: drop-shadow(0px 1px 1px #9a8165);
   grid-area: 3 / 1 / 5 / 3;
   @media ${device.sm} {
     grid-area: 3 / 1 / 4 / 2;
